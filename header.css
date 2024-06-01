@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Gotham Pro'; /* Гарнитура шрифта */
+  src: url(fonts/gothampro.ttf); /* Путь к файлу со шрифтом */
+}
+
+header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1920px;
+  height: 80px;
+  background: linear-gradient(
+    90.09deg,
+    #9e0b37 0.98%,
+    #ffc531 72.22%,
+    #9e0b37 99.95%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_span {
+  color: rgba(255, 255, 255, 1);
+
+  font-family: 'Abel', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+.arrow {
+  margin-left: 12px;
+}
+nav {
+  display: flex;
+  width: 437px;
+  height: 20px;
+  top: 30px;
+  padding-left: 250px;
+  gap: 72px;
+}
+.btn1 {
+  font-family: 'Gotham Pro';
+  font-size: 16px;
+  font-weight: 400;
+  background: transparent;
+  text-align: left;
+  width: 51px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+}
+.btn2 {
+  width: 160px;
+  height: 49px;
+
+  gap: 42px;
+  border-radius: 40px 40px 40px 40px;
+  background: rgba(158, 11, 55, 0.702);
+  box-shadow: 4px 4px 6px 0px rgba(255, 255, 255, 0.5) inset;
+  border: none;
+  font-family: 'Gotham Pro';
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+.btn_header {
+  gap: 42px;
+  display: flex;
+  margin-right: 250px;
+}

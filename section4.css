@@ -1,0 +1,55 @@
+.section4 {
+  background: rgba(23, 20, 34, 1);
+
+  padding-bottom: 20px;
+
+  display: flex;
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+body {
+  margin: 0;
+}
+
+.brands-carousel {
+  height: 280px;
+  display: flex;
+
+  flex-wrap: nowrap;
+  align-items: center;
+
+  animation: animate 10s linear infinite;
+}
+.brands-carousel .slide-content {
+  height: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(0px, 0);
+  }
+  100% {
+    transform: translate(-100%);
+  }
+}
+
+.section4 img {
+  min-width: 411.25px;
+  min-height: 280px;
+  max-width: 411.25px;
+  max-height: 280px;
+  border-radius: 20px;
+}
+.slide-content {
+  margin-left: 10px;
+  margin-right: 10px;
+  min-width: 411.25px;
+  min-height: 280px;
+  max-width: 411.25px;
+  max-height: 280px;
+}
